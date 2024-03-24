@@ -1,0 +1,8 @@
+{
+  "label": "Service 2",
+  "position": 99,
+  "link": {
+    "type": "generated-index",
+    "description": "Second service in the list."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Demo Documentation",
+  "position": 99,
+  "link": {
+    "type": "generated-index",
+    "description": "Example of structure for our technical documentation."
+  }
+}

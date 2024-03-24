@@ -1,0 +1,8 @@
+{
+  "label": "Technical Documentation",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Technical, in-depth documentation used by Yoop Developers to remember what they've built 2 months ago. I wonder what..."
+  }
+}

@@ -2,46 +2,40 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Getting Started
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Clone the repository
 
-## Getting Started
+Navigate to the directory you want to to store your projects.
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
+Execute the following command to clone the documentation repository:
 
 ```bash
-npm init docusaurus@latest my-website classic
+git clone https://github.com/Yoop-Platform/yoop-documentation.git
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Installation and starting up Docusaurus
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
+To install all the dependencies, you'll need Node.js installed. Navigate to the newly cloned directory and use:
 
 ```bash
-cd my-website
+npm install
+```
+
+to install the required dependencies.
+
+Run the development server with:
+
+```bash
 npm run start
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+After running the server, you can open a new terminal and use:
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+```bash
+git branch -b <name-of-your-new-branch>
+```
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+to create a new branch and to start editing the documentation.
+
+P.S. Use whatever you feel comfortable with, whether it's to create a new branch or manage dependencies. You should also be able to use yarn, as far as I know, if you hate npm.

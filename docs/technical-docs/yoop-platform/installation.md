@@ -13,7 +13,7 @@ Use the following steps to install the platform:
 First, you need to clone the repository:
 
 ```bash
-git clone https://github.com/Yoop-Platform/yoop-platform
+git clone https://github.com/Yoop-Platform/yoop-platform.git
 ```
 
 ## Navigate to the Directory

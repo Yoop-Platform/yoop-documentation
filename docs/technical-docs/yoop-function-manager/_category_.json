@@ -1,0 +1,8 @@
+{
+  "label": "Function Manager",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Service responsible of storing function configuration and offloading bootstrapping events to the Kafka queue."
+  }
+}

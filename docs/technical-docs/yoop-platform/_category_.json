@@ -1,0 +1,8 @@
+{
+  "label": "Yoop Platform",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Repository responsible for the Yoop Platform."
+  }
+}

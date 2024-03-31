@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 To configure the Database, currently there's no automated way to do it. You need to manually create the keyspace and tables in the Cassandra database.

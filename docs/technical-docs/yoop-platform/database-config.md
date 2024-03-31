@@ -2,6 +2,8 @@
 sidebar_position: 2
 ---
 
+# Database Configuration
+
 To configure the Database, currently there's no automated way to do it. You need to manually create the keyspace and tables in the Cassandra database.
 
 To do so, go to the Docker container, into the Exec tab, and run:

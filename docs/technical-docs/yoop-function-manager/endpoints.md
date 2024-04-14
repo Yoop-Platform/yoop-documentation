@@ -57,6 +57,41 @@ This method is used to create a new function. The request message should include
 }
 ```
 
+## ModifyFunction
+
+This method is used to modify an existing function. The request message should include the function ID, name, body, and user ID:
+
+```protobuf
+{
+    "functionData": {
+        "id": "4e243009cf560b7284aee70f3ade8136",
+        "name": "testFunction",
+        "body": "console.log(\"Howdy 🤠\");",
+        "user": "userId123"
+    }
+}
+```
+
+## GetFunctionByUser
+
+This method is used to get all functions created by a specific user. The request message should include the user ID:
+
+```protobuf
+{
+    "user": "userId123"
+}
+```
+
+## DeleteFunction
+
+This method is used to delete a function by its ID. The request message should include the function ID:
+
+```protobuf
+{
+    "id": "4e243009cf560b7284aee70f3ade8136"
+}
+```
+
 ## How do I call these methods?
 
 You can call these methods using the gRPC client. The Function Manager has a gRPC client that can be used to interact with the service. The client is generated from the gRPC proto file that is used to define the service.

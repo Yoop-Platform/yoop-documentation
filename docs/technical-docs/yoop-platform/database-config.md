@@ -36,6 +36,7 @@ Then, you need to create the tables:
 CREATE TABLE yoop_platform.function_configuration (
     id TEXT PRIMARY KEY,
     name TEXT,
+    container_name TEXT,
     body TEXT,
     created_at TIMESTAMP,
     last_bootstrapped_at TIMESTAMP,
